@@ -1,0 +1,46 @@
+= Exmaple REST Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+`BeerController` makes a call to a very simple service and produces three documentation snippets.
+
+HTTP request:
+
+include::{snippets}/v2/beers-get/http-request.adoc[]
+
+HTTP response:
+
+include::{snippets}/v2/beers-get/http-response.adoc[]
+
+Response fields:
+
+include::{snippets}/v2/beers-get/response-fields.adoc[]
+
+New beer
+
+HTTP request:
+
+include::{snippets}/v2/beers-new/http-request.adoc[]
+
+HTTP response:
+
+include::{snippets}/v2/beers-new/http-response.adoc[]
+
+Request fields:
+
+include::{snippets}/v2/beers-new/request-fields.adoc[]
+
+Update beer
+
+HTTP request:
+
+include::{snippets}/v2/beers-new/http-request.adoc[]
+
+HTTP response:
+
+include::{snippets}/v2/beers-new/http-response.adoc[]
+
+Request fields:
+
+include::{snippets}/v2/beers-new/request-fields.adoc[]
